@@ -129,7 +129,10 @@ TEMPLATES[0]['DIRS'] = [BASE_DIR / "templates"]
 MEDIA_ROOT = BASE_DIR / "media"
 MEDIA_URL = "/media/"
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['docconverter-glkm.onrender.com']
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
 STATIC_URL = "/static/"
+
+SECRET_KEY = "Django1Project2Convert3Doc"
+
